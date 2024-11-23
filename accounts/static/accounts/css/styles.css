@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box; /* Asegura que el padding y border no se salgan */
+}
+
+h2 {
+    margin: 0 0 20px;
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+p a {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Botones con estilo para acción */
+.action-button {
+    display: block;
+    width: 100%;  /* Asegura que los botones ocupen todo el ancho del contenedor */
+    box-sizing: border-box; /* Considera el padding y border en el tamaño total */
+    padding: 12px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.action-button:first-of-type {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.action-button:nth-of-type(2) {
+    background-color: #2196F3;
+    color: white;
+    border: 1px solid #2196F3;
+}
+
+.action-button:last-of-type {
+    background-color: #f44336;
+    color: white;
+    border: 1px solid #f44336;
+}
+
+/* Efectos de hover */
+.action-button:hover:first-of-type {
+    background-color: white;
+    color: #4CAF50;
+}
+
+.action-button:hover:nth-of-type(2) {
+    background-color: white;
+    color: #2196F3;
+}
+
+.action-button:hover:last-of-type {
+    background-color: white;
+    color: #f44336;
+}
+
+/* Estilos para la tabla de productos */
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.product-table th, .product-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.product-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.product-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Contenedor de la tabla de productos */
+.container-table {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}

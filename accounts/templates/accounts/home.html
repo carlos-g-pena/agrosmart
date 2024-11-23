@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="{% static 'accounts/css/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h2>Bienvenido, {{ user.username }}!</h2>
+        <p>Has iniciado exitosamente</p>
+        <a href="{% url 'add_product' %}" class="action-button">Registrar Producto</a>
+        <a href="{% url 'product_list' %}" class="action-button">Ver Registros</a>
+        <a href="{% url 'logout' %}" class="action-button">Cerrar Sesión</a>
+
+    </div>
+</body>
+</html>
