@@ -1,0 +1,82 @@
+# Entornos virtuales
+venv/
+env/
+*.env
+
+# Archivos de configuración de entornos
+*.env
+.env.*
+
+# Archivos de compilación
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Configuración del editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Archivos creados por sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos de base de datos locales
+db.sqlite3
+
+# Archivos de migración compilados
+*/migrations/*.pyc
+*/migrations/__pycache__/
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Archivos estáticos generados
+staticfiles/
+static/
+
+# Archivos multimedia
+media/
+
+# Logs y archivos temporales
+*.log
+*.out
+*.pid
+tmp/
+temp/
+*.bak
+*.backup
+
+# Archivos de paquetes
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+
+# Configuración de herramientas de despliegue
+local_settings.py
+
+# Archivos de compilación de node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Cache de pytest y cobertura
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Configuración de Docker
+docker-compose.override.yml
+
+# Archivos de WeasyPrint
+*.pdf
+
+# Otros
+*.crt
+*.pem

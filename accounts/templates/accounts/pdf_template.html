@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product PDF</title>
+    
+</head>
+<body>
+    <div class="header">
+        <h1>Product Details</h1>
+    </div>
+    <div class="content">
+        <h2>{{ product.name }}</h2>
+        <p><strong>ID:</strong> {{ product.id }}</p>
+        <p><strong>Weight:</strong> {{ product.weight }} kg</p>
+        <p><strong>Date Added:</strong> {{ product.date_added }}</p>
+        <p><strong>Registered By:</strong> {{ product.registered_by.username }}</p>
+    </div>
+</body>
+</html>

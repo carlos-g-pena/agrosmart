@@ -36,6 +36,9 @@
                 {% endfor %}
             </tbody>
         </table>
+        <a href="{% url 'generate_pdf' %}">
+            <button type="button">Download PDF</button>
+        </a>
         <p><a href="{% url 'home' %}">Back to Home</a></p>
     </div>
 </body>

@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 django = "*"
 pyinstaller = "*"
+reportlab = "*"
 
 [dev-packages]
 
